@@ -55,6 +55,7 @@
             this.Name = "Form1";
             this.ShowIcon = false;
             this.Text = "2D Klein-Gordon equation";
+            this.KeyDown += new System.Windows.Forms.KeyEventHandler(this.Form1_KeyDown);
             ((System.ComponentModel.ISupportInitialize)(this.Canvas)).EndInit();
             this.ResumeLayout(false);
 
